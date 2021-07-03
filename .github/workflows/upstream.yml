@@ -14,5 +14,6 @@ jobs:
           curl \
             -X POST \
             -H "Accept: application/vnd.github.v3+json" \
-            https://api.github.com/repos/silimium/silimium/actions/workflows/downstream/dispatches \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            https://api.github.com/repos/silimium/silimium/actions/workflows/downstream.yml/dispatches \
             -d '{"source":"$GITHUB_REPOSITORY","ref":"$GITHUB_REF"}'
