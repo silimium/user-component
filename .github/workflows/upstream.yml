@@ -16,5 +16,4 @@ jobs:
             -H "Accept: application/vnd.github.v3+json" \
             -H "Authorization: Bearer ${{ secrets.UPSTREAM_TOKEN }}" \
             https://api.github.com/repos/silimium/silimium/actions/workflows/downstream.yml/dispatches \
-            -d '{"source":"$GITHUB_REPOSITORY","ref":"$GITHUB_REF"}' \
-            --fail
+            -d '{"source":"$GITHUB_REPOSITORY","ref":"$GITHUB_REF"}'
