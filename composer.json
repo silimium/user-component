@@ -1,12 +1,11 @@
 {
-    "name": "silimium/user-feature",
-    "type": "bundle",
+    "name": "silimium/user-component",
     "require": {
-        "php": ">=7.2.5"
+        "php": ">=8.0"
     },
     "autoload": {
         "psr-4": {
-            "Silimium\\UserBundle\\": ""
+            "Silimium\\User\\": "src/"
         }
     }
 }

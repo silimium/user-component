@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Silimium\UserBundle\Entity;
+namespace Silimium\User\Bundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Security\Core\User\UserInterface;
 
 /**
  * @ORM\Entity
- * @ORM\Table(name="u_user")
+ * @ORM\Table(name="user_user")
  */
 class User implements UserInterface
 {

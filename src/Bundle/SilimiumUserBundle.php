@@ -1,6 +1,6 @@
 <?php
 
-namespace Silimium\UserBundle;
+namespace Silimium\User\Bundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
